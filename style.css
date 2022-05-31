@@ -85,7 +85,8 @@ h3 {
   padding: 10px 0px 100px 0;
 }
 #texteIntro {
-  padding: 0px 20%;
+  padding: 0px 15%;
+  font-size: 1.3em;
 }
 #prestations {
   display: flex;
@@ -112,7 +113,7 @@ h3 {
 /* **************** TOURISME ********************** */
 #tourisme {
   height: 1400px;
-  background-color: #f1f2f6;
+  background-color: #FFFAE1;
   padding: 1px 2%;
 }
 #tourisme h2 {
