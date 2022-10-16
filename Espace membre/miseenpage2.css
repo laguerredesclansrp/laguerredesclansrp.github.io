@@ -1,0 +1,155 @@
+@import url('https://fonts.googleapis.com/css?family=Advent+Pro|Dancing+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Advent+Pro:wght@100&family=Roboto+Slab:wght@100&family=Tiro+Gurmukhi&display=swap');
+@import url('https://fonts.google.com/specimen/Bebas+Neue?preview.size=36');
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: 'Advent Pro', sans-serif;
+  padding: 0;
+  margin: 0;
+}
+ul {
+  margin: 0;
+  padding: 0;
+}
+li {
+  list-style-type: none;
+}
+h2 {
+  text-transform: uppercase;
+  text-align: center;
+  padding-top: 30px;
+  font-size: 3em;
+  color: rgb(0, 0, 0);
+
+}
+a {
+  text-decoration: none;
+  color: black;
+}
+/* ******************* NAVBAR ******************* */
+nav {
+  overflow: hidden;
+  background-color: #FFFAE1;
+  position: fixed;
+  width: 100%;
+  opacity: 0.9;
+}
+header li {
+  font-size: 1.2em;
+  text-decoration: none;
+  display: block;
+  padding: 18px 16px;
+}
+
+#logo {
+  font-family: 'Tiro Gurmukhi', cursive;
+  font-weight: bold;
+  float: left;
+}
+
+#PD {
+  text-align: right;
+  float: right;
+}
+
+#connexion {
+  text-align: center;
+  font-family: 'Bebas Neue', cursive;
+  float: none;
+  color: #524A3A;
+  width: 200%;
+  font-size: 1.5em;
+}
+
+
+/* **************** IMAGE PRINCIPALE ************* */
+
+
+
+input[type="radio"].demo2 + label {
+  padding: 0.5rem 1rem;
+  font-size: 1.25rem;
+  line-height: 1.5;
+  border-radius: 0.3rem;
+  color: #fff;
+  background-color: #6c757d;
+  border: 1px solid transparent;
+  transition: all 0.5s ease-in-out;
+}
+
+#imagePrincipale2 {
+  background: url(../média/aa2.jpg) no-repeat fixed ;
+  background-size: cover;
+}
+
+
+
+h1 {
+  font-family: 'Tiro Gurmukhi', cursive;
+  text-align: center;
+  color: antiquewhite;
+  font-size: 6em;
+  margin-top: 100px;
+  text-shadow: 1px 3px 2px black;
+}
+#premierTrait {
+  height: 1px;
+  width: 25%;
+  margin: -3px auto;
+  background-color: #FFFAE1;
+  box-shadow: 1px 3px 2px black;
+}
+h3 {
+  text-align: center;
+  color:rgb(226, 226, 226);
+  font-size: 2em;
+  text-shadow: 1px 3px 2px black;
+}
+/* *************** PRESENTATION ********************** */
+#presentation {
+  background-color: #FFFAE1;
+  padding: 10px 0px 100px 0;
+}
+
+#texteIntro {
+  padding: 0px 15%;
+  font-size: 1.3em;
+}
+#lien {
+  padding: 0px 15%;
+  font-size: 1.3em;
+}
+#prestations {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 30px 10%;  
+}
+.imagesPrestations h4 {
+  font-family: 'Dancing Script', cursive;
+  text-align: center;
+  font-size: 1.8em;
+  margin: 15px;
+  font-weight: 300;
+}
+/* ******************* FOOTER ******************** */
+
+input[type="checkbox"].demo2 {
+  display: none;
+  text-align: center;
+  font-size: 2em;
+  text-shadow: 1px 3px 2px black;
+}
+input[type="checkbox"].demo2 + label::before {
+  content:'';
+  border: 1px solid #000000;
+  padding: 0 0.6rem;
+  margin-right: 0.3rem;
+}
+input[type="checkbox"].demo2:checked + label::before {
+  background-color: #000000;
+}
